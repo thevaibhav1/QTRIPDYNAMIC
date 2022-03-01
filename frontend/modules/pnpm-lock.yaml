@@ -1,0 +1,108 @@
+lockfileVersion: 5.3
+
+specifiers:
+  npm: ^8.4.1
+  start: ^5.1.0
+  test: ^0.6.0
+
+dependencies:
+  npm: 8.4.1
+  start: 5.1.0
+  test: 0.6.0
+
+packages:
+
+  /ansi-font/0.0.2:
+    resolution: {integrity: sha1-iQMBvVhBRi/TnAt3Ca/R9SUUMzE=}
+    engines: {node: '>=0.4.x'}
+    dev: false
+
+  /npm/8.4.1:
+    resolution: {integrity: sha512-Br6GQ6MGF06MhgBNhAJ4heYsCO5NJDKXnwHGaBgNDFz6HZiEOhc+sDGEcoXki4IlSUuAFdLY66BWaFI7BasMCA==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16}
+    hasBin: true
+    dev: false
+    bundledDependencies:
+      - '@isaacs/string-locale-compare'
+      - '@npmcli/arborist'
+      - '@npmcli/ci-detect'
+      - '@npmcli/config'
+      - '@npmcli/map-workspaces'
+      - '@npmcli/package-json'
+      - '@npmcli/run-script'
+      - abbrev
+      - ansicolors
+      - ansistyles
+      - archy
+      - cacache
+      - chalk
+      - chownr
+      - cli-columns
+      - cli-table3
+      - columnify
+      - fastest-levenshtein
+      - glob
+      - graceful-fs
+      - hosted-git-info
+      - ini
+      - init-package-json
+      - is-cidr
+      - json-parse-even-better-errors
+      - libnpmaccess
+      - libnpmdiff
+      - libnpmexec
+      - libnpmfund
+      - libnpmhook
+      - libnpmorg
+      - libnpmpack
+      - libnpmpublish
+      - libnpmsearch
+      - libnpmteam
+      - libnpmversion
+      - make-fetch-happen
+      - minipass
+      - minipass-pipeline
+      - mkdirp
+      - mkdirp-infer-owner
+      - ms
+      - node-gyp
+      - nopt
+      - npm-audit-report
+      - npm-install-checks
+      - npm-package-arg
+      - npm-pick-manifest
+      - npm-profile
+      - npm-registry-fetch
+      - npm-user-validate
+      - npmlog
+      - opener
+      - pacote
+      - parse-conflict-json
+      - proc-log
+      - qrcode-terminal
+      - read
+      - read-package-json
+      - read-package-json-fast
+      - readdir-scoped-modules
+      - rimraf
+      - semver
+      - ssri
+      - tar
+      - text-table
+      - tiny-relative-date
+      - treeverse
+      - validate-npm-package-name
+      - which
+      - write-file-atomic
+
+  /start/5.1.0:
+    resolution: {integrity: sha1-HBcfDvlIf1bQq5p1Ws6GAWkgh2M=}
+    engines: {node: '>=4'}
+    deprecated: Deprecated in favor of https://github.com/deepsweet/start
+    dev: false
+
+  /test/0.6.0:
+    resolution: {integrity: sha1-WYasRF7Bd1QyJRLRBLoyyKY+k44=}
+    dependencies:
+      ansi-font: 0.0.2
+    dev: false
