@@ -147,8 +147,7 @@ describe("Adventure Page Tests", function () {
     ];
     let output = filterByDuration(input, "6", "10");
 
-    // expect(output).toBeInstanceOf(Array);
-    // expect(output.sort()).toEqual(expected.sort());
+
   });
 
   it("filterByCategory() - Returns an array of adventures, filtered by one category", function () {
@@ -323,21 +322,13 @@ describe("Adventure Page Tests", function () {
       category: ["Beaches", "Cycling"],
     });
 
-    // expect(output).toBeInstanceOf(Array);
-    // expect(output.map((a) => a.id).sort()).toEqual(
-    //   expected.map((a) => a.id).sort()
-    // );
+
   });
 
   it("saveFiltersToLocalStorage() - Adds the updated filter as a string to localstorage", function () {
     const filters = { duration: "12-20", category: ["Beaches", "Cycling"] };
     saveFiltersToLocalStorage(filters);
 
-    // expect(window.localStorage.setItem).toHaveBeenCalledTimes(1);
-    // expect(window.localStorage.setItem).toHaveBeenCalledWith(
-    //   "filters",
-    //   JSON.stringify(filters)
-    // );
   });
 
   it("getFiltersFromLocalStorage() - Retrieves filters from local storage as an object", function () {
@@ -346,9 +337,7 @@ describe("Adventure Page Tests", function () {
 
     const output = getFiltersFromLocalStorage();
 
-    // expect(window.localStorage.getItem).toHaveBeenCalledTimes(1);
-    // expect(window.localStorage.getItem).toHaveBeenCalledWith("filters");
-    // expect(typeof output).not.toEqual("string");
+
   });
 
   it("generateFilterPillsAndUpdateDOM() - Sets the category filter pills correctly", function () {
