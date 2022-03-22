@@ -127,7 +127,8 @@ function saveFiltersToLocalStorage(filters) {
 function getFiltersFromLocalStorage() {
   // TODO: MODULE_FILTERS
   // 1. Get the filters from localStorage and return String read as an object
-  JSON.parse(window.localStorage.getItem('filters'));
+     return JSON.parse(window.localStorage.getItem('filters'));
+    
 
   // Place holder for functionality to work in the Stubs
 
