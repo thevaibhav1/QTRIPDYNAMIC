@@ -9,6 +9,7 @@ specifiers:
   nanoid: ^3.1.10
   npm: ^8.5.2
   start: ^5.1.0
+  test: ^0.6.0
 
 dependencies:
   body-parser: 1.19.1
@@ -19,6 +20,7 @@ dependencies:
   nanoid: 3.2.0
   npm: 8.5.2
   start: 5.1.0
+  test: 0.6.0
 
 packages:
 
@@ -28,6 +30,11 @@ packages:
     dependencies:
       mime-types: 2.1.34
       negotiator: 0.6.3
+    dev: false
+
+  /ansi-font/0.0.2:
+    resolution: {integrity: sha1-iQMBvVhBRi/TnAt3Ca/R9SUUMzE=}
+    engines: {node: '>=0.4.x'}
     dev: false
 
   /array-flatten/1.1.1:
@@ -469,6 +476,12 @@ packages:
     resolution: {integrity: sha1-BxEFvfwobmYVwEA8J+nXtdy4Vcs=}
     dependencies:
       graceful-fs: 4.2.9
+    dev: false
+
+  /test/0.6.0:
+    resolution: {integrity: sha1-WYasRF7Bd1QyJRLRBLoyyKY+k44=}
+    dependencies:
+      ansi-font: 0.0.2
     dev: false
 
   /toidentifier/1.0.1:
